@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Go app to test an app that uses a custom native module.  The app builds and runs fine on a physical device, but when attempting to run the app through Expo Go, it crashes with the error message: `Invariant Violation: Native modules don't work in Expo Go`. This is because Expo Go does not support custom native modules. 
